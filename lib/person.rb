@@ -4,4 +4,6 @@ class Person
     initialize_hash.each do |key, value|
       self.send("#{key}=", value)
     end
+  end
+  
 end
