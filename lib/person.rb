@@ -5,5 +5,5 @@ class Person
       self.send("#{key}=", value)
     end
   end
-  
+  attr_accessor 
 end
