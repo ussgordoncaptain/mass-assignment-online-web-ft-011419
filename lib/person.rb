@@ -5,5 +5,5 @@ class Person
       self.send("#{key}=", value)
     end
   end
-  attr_accessor 
+  attr_accessor :name, :height, :eye_color, :t_shirt_size,
 end
